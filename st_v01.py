@@ -44,7 +44,9 @@ class Binary_tree():
         else:
             #return 'root: ' + str(self.root) + ' size: ' +str(self.size)
             return 'root:' + str(self.root.key) + ' size:' + str(self.size) + str([str(node) for node in self.list_of_nodes])
-         
+    
+    def __del__(self):
+        pass 
 
     def search(self, key):
         """ iterative tree search
