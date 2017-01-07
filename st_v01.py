@@ -49,6 +49,7 @@ class Binary_tree():
             return 'root:' + str(self.root.key) + ' size:' + str(self.size) + str([str(node) for node in self.list_of_nodes])
     
     def __del__(self):
+        #delete the instance of the Class
         pass 
 
     def search(self, key):
